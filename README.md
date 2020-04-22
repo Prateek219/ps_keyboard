@@ -17,6 +17,9 @@ The protocol is: one start bit (always 0), eight data bits, one odd parity bit a
 is valid during the low period (falling edge) of the clock pulse. The keyboard is generating the clock signal, and
 the clock pulses are typically 30-50 s low and 30-50 s high.
 
+![Screenshot (109)](https://user-images.githubusercontent.com/64007722/79947025-c7c4b000-848e-11ea-9288-7ff6db735811.png)
+
+
 
 The host system can send commands to the keyboard by forcing the clock line low. It then pulls the data line
 low (the start bit). Now, the clock line must be released. The keyboard will count 10 clock pulses. The data line
