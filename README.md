@@ -7,6 +7,8 @@ pin assignments are shown in the figure.
 
 The signal lines are open connector, with pull-up resistors (internal) located in the keyboard.
 
+![Screenshot (108)](https://user-images.githubusercontent.com/64007722/79947005-bd0a1b00-848e-11ea-829b-3eb47e554930.png)
+
 
 
 ## PS/2 ALGORITHM
